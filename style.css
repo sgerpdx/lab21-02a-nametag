@@ -1,0 +1,77 @@
+body {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.hello {
+    background-color: blue;
+    margin: 0;
+    color: white;
+    height: 140px;
+    width: 640px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-is {
+    background-color: blue;
+    color: white;
+    height: 70px;
+    width: 640px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    background-color: white;
+    color: black;
+    height: 210px;
+    width: 640px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bottom {
+    background-color: blue;
+    height: 70px;
+    width: 640px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
