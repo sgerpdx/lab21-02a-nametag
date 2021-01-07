@@ -7,6 +7,8 @@ const userInput = document.getElementById('user-input');
 const renameButton = document.getElementById('rename-button');
 const realName = document.getElementById('real-name');
 
+const fontChoice = document.getElementById('fonts');
+
 
 
 renameButton.addEventListener('click', () => {
@@ -18,7 +20,9 @@ renameButton.addEventListener('click', () => {
 
     realName.textContent = userInput.value;
 
-    realName.style.fontFamily = 'East Sea Dokdo';
+    realName.style.fontFamily = fonts.value;
+
+
 
 });
 
