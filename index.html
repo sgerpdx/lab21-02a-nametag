@@ -5,17 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="general-text">
+    <header class="general-text" id="top-color">
         <section class="hello">HELLO</section>
         <section class="name-is">my name is</section>
     </header>
 
-    <main class="name">Sam</main>
+    <main class="name" id="real-name">Sam</main>
 
-    <footer class="bottom"></footer>
+    <footer class="bottom" id="bottom-color">
+        <div>
+            <input id="user-input"/>
+        </div>
+        <nav>
+            <button id="rename-button">Change Name</button>
+        </nav>
+    </footer>
 
+    <script src="app.js"></script>
 </body>
 </html>
+
